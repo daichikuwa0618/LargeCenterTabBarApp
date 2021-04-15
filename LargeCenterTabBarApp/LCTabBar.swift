@@ -43,18 +43,18 @@ class LCTabBar: UITabBar {
     func setupCenterButton() {
         centerButton.setImage(UIImage(systemName: "command.circle.fill"), for: .normal)
         centerButton.imageView?.tintColor = .red
+        centerButton.contentVerticalAlignment = .fill
+        centerButton.contentHorizontalAlignment = .fill
         centerButton.addTarget(self, action: #selector(handleCenterButton), for: .touchUpInside)
 
         addSubview(centerButton)
         centerButton.translatesAutoresizingMaskIntoConstraints = false
 
-        let heightDifference = (frame.height / 2) - (centerButtonHeight / 2)
-
         NSLayoutConstraint.activate([
             centerButton.widthAnchor.constraint(equalToConstant: centerButtonHeight),
             centerButton.heightAnchor.constraint(equalToConstant: centerButtonHeight),
             centerButton.centerXAnchor.constraint(equalTo: centerXAnchor),
-            centerButton.topAnchor.constraint(equalTo: topAnchor, constant: heightDifference)
+            centerButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor)
         ])
     }
 
