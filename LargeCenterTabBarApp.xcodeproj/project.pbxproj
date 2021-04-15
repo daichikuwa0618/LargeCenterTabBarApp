@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C99103AC2627C3160036D93F /* LCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99103AB2627C3160036D93F /* LCTabBarController.swift */; };
+		C99103AF2627C3AA0036D93F /* LCTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99103AE2627C3AA0036D93F /* LCTabBar.swift */; };
 		C9A960D02626A7FD007B7F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A960CF2626A7FD007B7F11 /* AppDelegate.swift */; };
 		C9A960D22626A7FD007B7F11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A960D12626A7FD007B7F11 /* SceneDelegate.swift */; };
-		C9A960D42626A7FD007B7F11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A960D32626A7FD007B7F11 /* ViewController.swift */; };
+		C9A960D42626A7FD007B7F11 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A960D32626A7FD007B7F11 /* CenterViewController.swift */; };
 		C9A960D72626A7FD007B7F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A960D52626A7FD007B7F11 /* Main.storyboard */; };
 		C9A960D92626A7FF007B7F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A960D82626A7FF007B7F11 /* Assets.xcassets */; };
 		C9A960DC2626A7FF007B7F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A960DA2626A7FF007B7F11 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C99103AB2627C3160036D93F /* LCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTabBarController.swift; sourceTree = "<group>"; };
+		C99103AE2627C3AA0036D93F /* LCTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTabBar.swift; sourceTree = "<group>"; };
 		C9A960CC2626A7FD007B7F11 /* LargeCenterTabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeCenterTabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A960CF2626A7FD007B7F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9A960D12626A7FD007B7F11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9A960D32626A7FD007B7F11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9A960D32626A7FD007B7F11 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
 		C9A960D62626A7FD007B7F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9A960D82626A7FF007B7F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A960DB2626A7FF007B7F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 			children = (
 				C9A960CF2626A7FD007B7F11 /* AppDelegate.swift */,
 				C9A960D12626A7FD007B7F11 /* SceneDelegate.swift */,
-				C9A960D32626A7FD007B7F11 /* ViewController.swift */,
+				C9A960D32626A7FD007B7F11 /* CenterViewController.swift */,
 				C9A960D52626A7FD007B7F11 /* Main.storyboard */,
 				C9A960D82626A7FF007B7F11 /* Assets.xcassets */,
 				C9A960DA2626A7FF007B7F11 /* LaunchScreen.storyboard */,
 				C9A960DD2626A7FF007B7F11 /* Info.plist */,
+				C99103AB2627C3160036D93F /* LCTabBarController.swift */,
+				C99103AE2627C3AA0036D93F /* LCTabBar.swift */,
 			);
 			path = LargeCenterTabBarApp;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A960D42626A7FD007B7F11 /* ViewController.swift in Sources */,
+				C9A960D42626A7FD007B7F11 /* CenterViewController.swift in Sources */,
 				C9A960D02626A7FD007B7F11 /* AppDelegate.swift in Sources */,
+				C99103AF2627C3AA0036D93F /* LCTabBar.swift in Sources */,
+				C99103AC2627C3160036D93F /* LCTabBarController.swift in Sources */,
 				C9A960D22626A7FD007B7F11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
